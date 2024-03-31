@@ -23,7 +23,7 @@ return {
         lspconfig.lua_ls.setup({
           capabilities = capabilities
         })
-        lspconfig.ruff_lsp.setup({
+        lspconfig.pylsp.setup({
           capabilities = capabilities
         })
   
